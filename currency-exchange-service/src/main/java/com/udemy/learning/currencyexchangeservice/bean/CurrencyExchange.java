@@ -1,15 +1,14 @@
 package com.udemy.learning.currencyexchangeservice.bean;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.math.BigDecimal;
 
 @Data
-@AllArgsConstructor
 public class CurrencyExchange {
-    private Long id;
-    private String from;
-    private String to;
-    private BigDecimal conversionMultiple;
+    private final Long id;
+    private final String from;
+    private final String to;
+    private final BigDecimal conversionMultiple;
+    private String environment;
 }
