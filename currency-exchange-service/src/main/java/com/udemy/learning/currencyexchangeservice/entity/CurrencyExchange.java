@@ -1,4 +1,4 @@
-package com.udemy.learning.currencyexchangeservice.bean;
+package com.udemy.learning.currencyexchangeservice.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
