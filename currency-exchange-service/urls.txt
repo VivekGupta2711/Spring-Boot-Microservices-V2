@@ -1,17 +1,20 @@
 Currency Exchange Service
-EurekaName:CURRENCY-EXCHANGE
+EurekaName:currency-exchange
 currency-exchange
 http://localhost:8000/currency-exchange/from/USD/to/INR
 
 Currency Conversion Service
-EurekaName:CURRENCY-CONVERSION
+EurekaName:currency-conversion
 http://localhost:8100/currency-conversion/from/USD/to/INR/quantity/10
 
 Euerka:
 http://localhost:8761/
 
 APIGateway
-EurekaName:API-GATEWAY
-http://localhost:8765/CURRENCY-EXCHANGE/currency-exchange/from/USD/to/INR
+EurekaName:api-gateway
+http://localhost:8765/currency-exchange/currency-exchange/from/USD/to/INR
 
-http://localhost:8765/CURRENCY-CONVERSION/currency-conversion/from/USD/to/INR/quantity/10
+http://localhost:8765/currency-conversion/currency-conversion/from/USD/to/INR/quantity/10
+
+http://localhost:8765/get
+

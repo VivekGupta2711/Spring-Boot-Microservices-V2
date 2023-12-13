@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 //Old Way
 //@FeignClient(name = "currency-exchange", url = "localhost:8000")
 //Eureka way directly give service name
-@FeignClient(name = "currency-exchange")
+@FeignClient(name = "CURRENCY-EXCHANGE")
 public interface CurrencyExchangeProxy {
 
     @GetMapping("/currency-exchange/from/{from}/to/{to}")
